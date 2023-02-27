@@ -1,0 +1,22 @@
+// Здесь можно настраивать переменные
+// https://bulma.io/documentation/customize/variables/
+// $info: red;
+
+$black: #000;
+$link: #0071e3;
+$rounded: 20px;
+$colortext: #fff;
+
+@import "/node_modules/bulma/bulma.sass";
+
+// Делаем общую заготовку
+body,
+html,
+#app {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: $black;
+}
